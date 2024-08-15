@@ -1,0 +1,92 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #A2D9CE;
+	font-family: 'Oswald', sans-serif;
+}
+header{
+	background: #A2D9CE;
+	color: #111FE5;
+	text-align: center;
+	padding: 40px 0;
+
+	height: 500px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+header .titulo{
+	font-size: 62px;
+	font-family: 'Oswald', sans-serif;
+}
+main{
+	margin-top: 200px;
+}
+
+.fm-video{
+	width: 100%;
+	-webkit-box-shadow: -7px -8px 10px -3px rgba(54, 26, 23, 0.8);
+	box-shadow: -7px -8px 10px -3px rgba(54, 26, 23, 0.8);
+}
+
+/*
+.vjs-play-progress, .vjs-volume-control, .{
+	color: aquamarine;
+}
+*/
+
+.vjs-big-play-button:hover{
+	color: aquamarine;
+}
+
+.vjs-big-play-centered:hover{
+	color: aquamarine;
+}
+
+.contenedor{
+
+	max-width: 70%;
+}
+.fm-video{
+	margin-left: 200px;
+	bottom: 40px;
+}
+
+article h3{
+	font-size: 32px;
+	text-align: center;
+	margin-left: 310px;
+}
+
+article p{
+	width: 100%;
+	font-size: 19px;
+	margin-left: 200px;
+	text-align: justify;
+}
+
+.dia a{
+   background-color: #ffffff; /* Color de fondo del botón */
+    border: 2px solid #000000; /* Sin borde */
+    color: black; /* Color del texto */
+    padding: 15px 30px; /* Relleno interno del botón */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar como un bloque en línea */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 4px 2px; /* Márgenes */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    border-radius: 20px; /* Bordes redondeados */
+    transition: background-color 0.3s, transform 0.3s; /* Transición para el color de fondo y la transformación */
+    position: relative; /* Posicionamiento relativo */
+    left: 50%; /* Desplazar a la mitad del contenedor */
+    transform: translateX(-50%); /* Centrar horizontalmente */
+    top: 30px;
+}
+
+.dia a:hover {
+    background-color: aquamarine; /* Color de fondo al pasar el cursor */
+    transform: translateX(-50%) scale(1.05); /* Aumentar el tamaño ligeramente al pasar el cursor */
+}
